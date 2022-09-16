@@ -3,16 +3,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 public class Main{
     public static void main(String[] args) {
-        //*******************************************Object Declaration***************************************
-//In the file Main.java, inside public static void main(String[] args):
-//
-//        Create a new ArrayList which contains Cupcake objects and name it cupcakeMenu.
         ArrayList<Cupcake> cupcakeMenu = new ArrayList<Cupcake>();
-//
-//                NOTE: If you have not imported java.util.ArrayList at the top of your file,
-//                please do so now to avoid errors.
-//
-//        Create a new Cupcake object named cupcake.
         Cupcake cupcake = new Cupcake();
 //
 //        Create a new RedVelvet object named redVelvet.
@@ -20,10 +11,6 @@ public class Main{
 //
 //        Create a new Chocolate object named chocolate.
         Chocolate chocolate = new Chocolate();
-
-        //        ******************************************Pricing***********************************
-//        Print “We are in the middle of creating the cupcake menu. We currently
-//        have three cupcakes on the menu but we need to decide on pricing.”
         System.out.println("We are in the middle of the cupcake menu" + "\n We currently " +
                         "have three cupcake on the menu but we need to decide on pricing");
 //
@@ -226,8 +213,6 @@ class Drink {
         System.out.println("A bottle of water");
     }
 }
-//        ***************************************************************************************
-//        ************************** Child Classses ********************************************
 class Soda extends Drink{
     //            Create a public function named type that returns void and prints “A bottle of soda.”
 //            This will override the behavior of the inherited method.
